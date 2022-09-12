@@ -67,15 +67,15 @@ if (paypal.HostedFields.isEligible()) {
     fields: {
       number: {
         selector: "#card-number",
-        placeholder: "4111 1111 1111 1111",
+        placeholder: "4032 0379 4571 5080",
       },
       cvv: {
         selector: "#cvv",
-        placeholder: "123",
+        placeholder: "745",
       },
       expirationDate: {
         selector: "#expiration-date",
-        placeholder: "MM/YY",
+        placeholder: "02/2025",
       },
     },
   }).then((cardFields) => {
